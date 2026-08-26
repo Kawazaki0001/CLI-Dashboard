@@ -1,5 +1,4 @@
 """ We get the free quotes from https://zenquotes.io and return it first text then author """
-import asyncio
 from httpx import AsyncClient
 
 

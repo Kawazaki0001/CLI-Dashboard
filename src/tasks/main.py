@@ -53,16 +53,3 @@ class Task:
     def returnTasks(self) -> dict:
         """Return the tasks dictionary."""
         return self.tasks
-
-
-# ─── Test ──────────────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    t = Task()
-    # These should work
-    t.addTask("09:15", "German Course")
-    t.addTask("14:00", "Study Python")
-    # This should fail (invalid time)
-    t.addTask("25:00", "Invalid")
-    # This should fail (invalid title)
-    t.addTask("10:00", "")
-    print("All tasks:", t.returnTasks())

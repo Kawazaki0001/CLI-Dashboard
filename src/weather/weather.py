@@ -5,7 +5,6 @@ import asyncio
 import toml, pathlib, json, datetime
 from httpx import AsyncClient, _exceptions as e
 from rich import console
-# from render_weather import pretty_print_weather
 
 
 class Weather :
@@ -111,14 +110,4 @@ class Weather :
         "today": today,
         "tomorrow": tomorrow,
         }
-
-# # At the bottom of weather.py
-# if __name__ == "__main__":
-#     w = Weather()
-#     data = w.makeCall()
-#     print(data)
-#     # if data:
-#     #     pretty_print_weather(data)   # <-- your new render function
-#     # else:
-#     #     console.print("[red]Failed to retrieve weather data.[/]")
 

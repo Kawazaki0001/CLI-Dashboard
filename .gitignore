@@ -30,6 +30,7 @@ res.json
 # Logs & temporary files
 *.log
 *.tmp
+*.toml
 
 # Screenshots? You probably want to keep SCSH.png if it's the demo image.
 # If you don't want it, uncomment:

@@ -1,0 +1,45 @@
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dashboard cache & task files (user data)
+.dashboard_cache.json
+tasks.json
+res.json
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# Screenshots? You probably want to keep SCSH.png if it's the demo image.
+# If you don't want it, uncomment:
+# SCSH.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Distribution / build
+dist/
+build/
+*.egg-info/

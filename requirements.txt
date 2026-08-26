@@ -1,0 +1,15 @@
+anyio             4.14.2
+certifi           2026.7.22
+dotenv            0.9.9
+h11               0.16.0
+httpcore          1.0.9
+httpx             0.28.1
+idna              3.19
+markdown-it-py    4.2.0
+mdurl             0.1.2
+pip               24.0
+Pygments          2.21.0
+python-dotenv     1.2.3
+rich              15.0.0
+toml              0.10.2
+typing_extensions 4.16.0
